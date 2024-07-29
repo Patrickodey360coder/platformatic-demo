@@ -9,12 +9,16 @@
     "build": "platformatic compile"
   },
   "devDependencies": {
-    "fastify": "^4.26.2",
+    "@types/fastify-static": "^2.2.1",
     "borp": "^0.16.0",
-    "typescript": "^5.4.2"
+    "fastify": "^4.26.2",
+    "typescript": "^5.4.2",
+    "fastify-static": "^4.7.0"
   },
   "dependencies": {
     "@platformatic/runtime": "^1.52.0",
+    "fastify-static": "^4.7.0",
+    "path": "^0.12.7",
     "platformatic": "^1.52.0"
   },
   "engines": {

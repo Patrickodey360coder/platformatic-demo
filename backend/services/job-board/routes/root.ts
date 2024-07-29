@@ -11,4 +11,5 @@ export default async function (fastify: FastifyInstance, opts: FastifyPluginOpti
   fastify.get('/example', async (request, reply) => {
     return { hello: fastify.example }
   })
+  
 }
